@@ -41,9 +41,12 @@ In order to test the functionality of the tool,do the following test cases:
 
 **Test Case 1:Fixed Cost Calculation**
   *Set Rent/Bills to ₹100 and Mess to ₹250. Verify that the "Fixed Costs" output displays ₹350.0 correctly.*
+  ![example](https://github.com/j1gss/Student-Wealth-Tracker/blob/master/ss/Screenshot%202026-03-31%20185353.png)
   
 **Test Case 2:Negative Liquidity (Debt State)**
   *With an allowance of ₹5000 and total costs exceeding this (e.g., a Flight for ₹5100), verify that "Remaining Liquidity" reflects the negative deficit (e.g., -₹450.0).*
+   ![example](https://github.com/j1gss/Student-Wealth-Tracker/blob/master/ss/Screenshot%202026-03-31%20185537.png)
   
 **Test Case 3:Emergency Preservation** 
 *Adjust the "Emergency Stash %" slider and confirm that the "Emergency Reserve" amount recalculates without affecting fixed cost commitments.*
+ ![example](https://github.com/j1gss/Student-Wealth-Tracker/blob/master/ss/Screenshot%202026-03-31%20185435.png)
